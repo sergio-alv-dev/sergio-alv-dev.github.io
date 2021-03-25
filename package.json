@@ -1,38 +1,40 @@
 {
-  "name": "my-new-cv-react",
+  "name": "gresumereact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "react-scripts": "1.0.7",
+    "stylus": "^0.54.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "description": "Professional Resume CV Template in ReactJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/gresume-react.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [
+    "Gresume",
+    "react",
+    "jsx"
+  ],
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/gresume-react/issues"
+  },
+  "homepage": "https://github.com/gndx/gresume-react#readme"
 }
