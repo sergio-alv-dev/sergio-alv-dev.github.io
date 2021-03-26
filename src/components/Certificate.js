@@ -11,10 +11,11 @@ const Certificate = (props) => {
       )}
     </div>
   );
+  
   return (
     <div className='title'>
       <i className='fa fa-trophy'></i>
-      <h2>CERTIFICATES</h2>
+      <h2>Certificados</h2>
       {myCertificates}
     </div>
   )

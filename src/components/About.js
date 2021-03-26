@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Social from './Social';
 
+
 const About = ({avatar, name, profession, bio, address, social}) => {
   return(
     <div className='bio'>
@@ -11,15 +12,25 @@ const About = ({avatar, name, profession, bio, address, social}) => {
       <div className='title'>
         <h1>{name}</h1>
         <h2>{profession}</h2>
+
+        {/* <h2>
+        <i className='fab fa-react'></i>
+        <i className='fab fa-node'></i>
+        <i className='fab fa-python'></i>
+        </h2> */}
+
       </div>
       <div className='desc'>
         <p>{bio}</p>
+
       </div>
       <div className='address'>
         <p>{address}</p>
       </div>
       <Social social={social} />
+      
     </div>
+
   );
 };
 

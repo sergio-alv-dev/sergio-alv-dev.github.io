@@ -6,7 +6,7 @@ const Social = (props) => {
       {props.social.map((socialNetwork) =>
         <li key={socialNetwork.name}>
           <a href={socialNetwork.url} target='_blank' rel="noopener noreferrer">
-            <i className={'fa fa-' + socialNetwork.name + '-square'}></i>
+            <i className={'fab fa-' + socialNetwork.name + ''}></i>
           </a>
         </li>
       )}
@@ -15,6 +15,9 @@ const Social = (props) => {
   return (
     <div className="social">
       {socialNetworks}
+      <a href="mailto:sergio.alv.dev@gmail.com?Subject=Hola!">
+        <i className='fa fa-envelope'></i>
+      </a>
     </div>
   )
 };
