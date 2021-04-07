@@ -4,33 +4,16 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificates from './components/Certificates';
-// import Skills from './components/Skills';
-import { Curses } from './components/Curses';
-import { sergio } from './person'
-import { Portfolio } from './components/Portfolio';
-// import Darkmode from 'darkmode-js';
 
-// const options = {
-//   bottom: '64px', // default: '32px'
-//   right: 'unset', // default: '32px'
-//   left: '32px', // default: 'unset'
-//   time: '0.5s', // default: '0.3s'
-//   mixColor: '#fff', // default: '#fff'
-//   backgroundColor: '#fff',  // default: '#fff'
-//   buttonColorDark: '#100f2c',  // default: '#100f2c'
-//   buttonColorLight: '#fff', // default: '#fff'
-//   saveInCookies: false, // default: true,
-//   label: '🌓', // default: ''
-//   autoMatchOsTheme: true // default: true
-// }
+import { Curses } from './components/Curses';
+import { sergio } from './person';
+import { Portfolio } from './components/Portfolio';
+
 
 
 class App extends Component {
   
   render() {
-    
-    // const darkmode = new Darkmode(options);
-    // darkmode.showWidget();
     
     return (
         
@@ -49,16 +32,11 @@ class App extends Component {
 
           <div className='content-wrapper'>
 
-              <div className= ''>
-                head
-              </div>
-
               <div className='content'>
                 <Experience experience={ sergio.experience } />
                 <Education education={ sergio.education } />
                 <Certificates certificates={ sergio.certificates } />
                 <Curses courses = { sergio.courses }/>
-                {/* <Skills skills={sergio.skills} /> */}
                 
                 <Portfolio portfolio={ sergio.portfolio } />
 
