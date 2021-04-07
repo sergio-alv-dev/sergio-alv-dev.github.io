@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import About from './components/About';
 import Experience from './components/Experience';
@@ -10,10 +10,7 @@ import { sergio } from './person';
 import { Portfolio } from './components/Portfolio';
 
 
-
-class App extends Component {
-  
-  render() {
+export const App = () =>{
     
     return (
         
@@ -26,7 +23,8 @@ class App extends Component {
               profession={sergio.profession}
               bio={sergio.bio}
               address={sergio.address}
-              social={sergio.social} />
+              social={sergio.social} 
+            />
 
           </div>
 
@@ -47,7 +45,5 @@ class App extends Component {
       </header>
       
     );
-  }
+  
 }
-
-export default App;
