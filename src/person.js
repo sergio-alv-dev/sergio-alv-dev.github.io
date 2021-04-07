@@ -44,7 +44,7 @@ export const sergio = {
       // https://github.com/moflaher/ttide_py
 
       // debo reconocer que no logré resultados excepcionales, pero todo lo que aprendí es invaluable.
-      // {degree: 'Liceo Eduardo de la Barra', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+      {degree: 'Liceo Eduardo de la Barra', institution: '', startDate: '2006', endDate: '2010', description: 'Enseñanza media'},
     ],
     certificates: [
       // 
@@ -108,8 +108,6 @@ export const sergio = {
 
     ],
     portfolio: [
-
-
     {
       name: 'Aplicación de Apuntes',
       url: 'https://journalapp-react.herokuapp.com/auth/login',
