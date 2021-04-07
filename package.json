@@ -1,4 +1,5 @@
 {
+  "homepage":"https://sergio-alv-dev.github.io/sergio-alv-dev.github.io",
   "name": "gresumereact",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +41,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gndx/gresume-react/issues"
-  },
-  "homepage":"https://sergio-alv-dev.github.io/sergio-alv-dev.github.io"
+  }  
 }
