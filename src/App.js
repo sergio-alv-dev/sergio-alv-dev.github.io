@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-
-
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
-import Certificate from './components/Certificate';
+import Certificates from './components/Certificates';
 // import Skills from './components/Skills';
 import { Curses } from './components/Curses';
 import { sergio } from './person'
+import { Portfolio } from './components/Portfolio';
 // import Darkmode from 'darkmode-js';
 
 // const options = {
@@ -57,9 +56,11 @@ class App extends Component {
               <div className='content'>
                 <Experience experience={ sergio.experience } />
                 <Education education={ sergio.education } />
-                <Certificate certificate={ sergio.certificate } />
+                <Certificates certificates={ sergio.certificates } />
                 <Curses courses = { sergio.courses }/>
                 {/* <Skills skills={sergio.skills} /> */}
+                
+                <Portfolio portfolio={ sergio.portfolio } />
 
               </div>
           </div>

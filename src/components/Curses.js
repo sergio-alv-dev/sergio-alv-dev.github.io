@@ -6,7 +6,7 @@ export const Curses = (props) => {
         <div>
           {props.courses.map((course) =>
             <div className='item' key={course.name}>
-              <h3>{course.name} @ {course.institution} <span>{course.date}</span></h3>
+              <h3>{course.name} @ {course.institution} <span> { course.duration }  {course.date}</span></h3>
               <p>{course.description}</p>
             </div>
           )}
